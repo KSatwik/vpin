@@ -74,7 +74,14 @@ The dashboard features two synchronized, interactive Plotly charts:
 <img width="936" height="383" alt="image" src="https://github.com/user-attachments/assets/b14aac32-6e75-4295-b4c4-163c9735714d" />
 
 
+## Limitations
+a) VPIN is an estimator of order-flow toxicity, not direct proof of informed trading.
 
+b) Results depend on bucket-size and classification assumptions.
+
+c) Synthetic data are for validation of implementation, not evidence of real-market behavior.
+
+d) Threshold crossings should not automatically be interpreted as trading signals.
 
 
 ## References
